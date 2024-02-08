@@ -132,7 +132,7 @@ p {
     margin: 3rem 0;
 }
 
-.section p {
+.section > p {
     margin-bottom: 2rem;
 }
 
