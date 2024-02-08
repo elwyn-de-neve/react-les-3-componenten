@@ -86,7 +86,10 @@ function App() {
               </button>
             </div>
             <div className="card">
-              <img src="https://placehold.co/300?text=image" alt="mission" />
+              <span className="card-image">
+                <img src="https://placehold.co/300?text=image" alt="mission" />
+                <Heart className="icon" weight="fill" size={24} />
+              </span>
               <h3>Sweater</h3>
               <p>
                 Our Sweaters are made of high-quality wool and are available in
@@ -101,7 +104,9 @@ function App() {
               </button>
             </div>
             <div className="card">
-              <img src="https://placehold.co/300?text=image" alt="mission" />
+              <span className="card-image">
+                <img src="https://placehold.co/300?text=image" alt="mission" />
+              </span>
               <h3>Hoodie</h3>
               <p>
                 Our Hoodies are made of high-quality cotton and are available in
