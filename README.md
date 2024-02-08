@@ -18,7 +18,7 @@ const ComponentNaam = ({ title, text }) => {
   );
 };
 ```
-8. Voorzie de properties van het component op de pagina van de juiste waardes. 
+9. Voorzie de properties van het component op de pagina van de juiste waardes. 
 ```jsx
 <ComponentNaam title="Mijn titel" text="Mijn tekst" />
 ```
