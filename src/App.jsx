@@ -1,4 +1,5 @@
 import "./styles/global.css";
+import { Heart } from "@phosphor-icons/react";
 
 function App() {
   function handleGetStartedClick() {
@@ -59,49 +60,52 @@ function App() {
       </header>
       <main className="container">
         <section className="section">
-          <h2>About</h2>
+          <h2>Products</h2>
           <p>
-            This is the about page. You can use this page to provide more
-            information about your website, products, or services. You can also
-            use this page to introduce yourself or your team to your visitors.
+            We offer a wide range of products including T-Shirts, Sweaters, and
+            Hoodies. Our products are made of high-quality materials and are
+            available in different sizes and colors.
           </p>
           <div className="wrapper">
             <div className="card">
-              <img src="https://placehold.co/300?text=image" alt="mission" />
-              <h3>Our Mission</h3>
+              <span className="card-image">
+                <img src="https://placehold.co/300?text=image" alt="mission" />
+                <Heart className="icon" weight="fill" size={24} />
+              </span>
+              <h3>T-Shirt</h3>
               <p>
-                Our mission is to provide the best products and services to our
-                customers.
+                Our T-Shirts are made of high-quality cotton and are available
+                in different sizes and colors.
               </p>
               <button
                 type="button"
                 onClick={() => {}}
                 className="btn btn-secondary btn-sm"
               >
-                Learn More
+                Buy Now
               </button>
             </div>
             <div className="card">
               <img src="https://placehold.co/300?text=image" alt="mission" />
-              <h3>Our Vision</h3>
+              <h3>Sweater</h3>
               <p>
-                Our vision is to be the leading provider of high-quality
-                products and services in our industry.
+                Our Sweaters are made of high-quality wool and are available in
+                different sizes and colors.
               </p>
               <button
                 type="button"
                 onClick={() => {}}
                 className="btn btn-secondary btn-sm"
               >
-                Learn More
+                Buy Now
               </button>
             </div>
             <div className="card">
               <img src="https://placehold.co/300?text=image" alt="mission" />
-              <h3>Our Values</h3>
+              <h3>Hoodie</h3>
               <p>
-                Our values are quality, customer satisfaction, and continuous
-                improvement.
+                Our Hoodies are made of high-quality cotton and are available in
+                different sizes and colors.
               </p>
               <button
                 type="button"

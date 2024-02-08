@@ -6,8 +6,6 @@
 }
 
 :root {
-    --primary-color: #f9a109;
-    --secondary-color: #4b78b8;
     --foreground-color: #333;
     --foreground-color-muted: #828282;
     --background-color: #f2f2f2;
@@ -147,8 +145,18 @@ p {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.card img {
+.card-image {
+    position: relative;
+}
+
+.card-image img {
     width: 100%;
     border-radius: 0.5rem;
+}
+
+.card-image > .icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
 
